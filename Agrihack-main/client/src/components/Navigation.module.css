@@ -1,0 +1,16 @@
+.logo{
+    width:14rem;
+    height:3rem;
+    margin-right: 3rem;
+}
+.search{
+    width: 37rem;
+}
+.navs{
+    margin-left: 3rem;
+}
+/* .navback{
+    background-image: url('../../public/sun.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
