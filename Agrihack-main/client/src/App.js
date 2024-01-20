@@ -1,4 +1,4 @@
-
+import React from 'react';
 import "./index.css";
 import Home from "./pages/Home";
 import {Route, Routes } from "react-router-dom";
@@ -6,18 +6,21 @@ import Navigation from "./components/Navigation";
 //import Register from "./pages/Register";
 import Aboutus from "./pages/Aboutus";
 import Carts from "./pages/Carts";
-import R from "./pages/R";
+// import R from "./pages/R";
 import Register from "./pages/Register";
+import Login from "./pages/Login";
 function App() {
   return (
     <div>
       <Navigation />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/r" element={<R name="sai" />} />
+        <Route path="/login" element={<Login />} />
+        {/* <Route path="/r" element={<R name="sai" />} /> */}
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/carts" element={<Carts />} />
         <Route path="/register" element={<Register />} />
+        {/* <Route path="/register" element={<Login />} /> */}
         {/* <Route path="/carts" element={<Carts />} /> */}
       </Routes>
       <div className="container px-5 pb-5 text-center">
